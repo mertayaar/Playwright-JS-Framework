@@ -1,0 +1,460 @@
+{
+  "config": {
+    "configFile": "/Users/mertayaar/QA-Projects/PlaywrightExamples/Playwright-JS-Framework/playwright.config.js",
+    "rootDir": "/Users/mertayaar/QA-Projects/PlaywrightExamples/Playwright-JS-Framework/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 4
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "results.xml"
+        }
+      ],
+      [
+        "html",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "results.json"
+        }
+      ],
+      [
+        "/Users/mertayaar/QA-Projects/PlaywrightExamples/Playwright-JS-Framework/node_modules/allure-playwright/dist/index.js",
+        {
+          "outputFolder": "AllureResults"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/Users/mertayaar/QA-Projects/PlaywrightExamples/Playwright-JS-Framework/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/mertayaar/QA-Projects/PlaywrightExamples/Playwright-JS-Framework/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/mertayaar/QA-Projects/PlaywrightExamples/Playwright-JS-Framework/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/Users/mertayaar/QA-Projects/PlaywrightExamples/Playwright-JS-Framework/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/mertayaar/QA-Projects/PlaywrightExamples/Playwright-JS-Framework/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/Users/mertayaar/QA-Projects/PlaywrightExamples/Playwright-JS-Framework/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.43.1",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "CheckOut/CartAndPayment_test.spec.js",
+      "file": "CheckOut/CartAndPayment_test.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "place a order @products@placeorder@regression",
+          "ok": true,
+          "tags": [
+            "products@placeorder@regression"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 17334,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-04-15T02:40:37.234Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/mertayaar/QA-Projects/PlaywrightExamples/Playwright-JS-Framework/test-results/CheckOut-CartAndPayment_te-7f601-ducts-placeorder-regression-chromium/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "bc6949dfd1668756be5d-1157702648ecc0e38bd4",
+          "file": "CheckOut/CartAndPayment_test.spec.js",
+          "line": 22,
+          "column": 5
+        },
+        {
+          "title": "Proceed to Check Out @cart@placeorder@regression",
+          "ok": true,
+          "tags": [
+            "cart@placeorder@regression"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 3843,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-04-15T02:40:55.358Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/mertayaar/QA-Projects/PlaywrightExamples/Playwright-JS-Framework/test-results/CheckOut-CartAndPayment_te-2f6f8--cart-placeorder-regression-chromium/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "bc6949dfd1668756be5d-f4d3df99351f9b0bd931",
+          "file": "CheckOut/CartAndPayment_test.spec.js",
+          "line": 29,
+          "column": 5
+        },
+        {
+          "title": "Verify Address and Place Order @placeorder@regression",
+          "ok": true,
+          "tags": [
+            "placeorder@regression"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 5927,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-04-15T02:40:59.357Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/mertayaar/QA-Projects/PlaywrightExamples/Playwright-JS-Framework/test-results/CheckOut-CartAndPayment_te-37d7a-Order-placeorder-regression-chromium/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "bc6949dfd1668756be5d-cd937273c3fc2dc96221",
+          "file": "CheckOut/CartAndPayment_test.spec.js",
+          "line": 37,
+          "column": 5
+        },
+        {
+          "title": "Pay and Confirm @placeorder@regression",
+          "ok": true,
+          "tags": [
+            "placeorder@regression"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 5383,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-04-15T02:41:05.496Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/mertayaar/QA-Projects/PlaywrightExamples/Playwright-JS-Framework/test-results/CheckOut-CartAndPayment_te-d4479-nfirm-placeorder-regression-chromium/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "bc6949dfd1668756be5d-bfe6d9fe7e888d2b5a6a",
+          "file": "CheckOut/CartAndPayment_test.spec.js",
+          "line": 43,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Login/login_test.spec.js",
+      "file": "Login/login_test.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Successful Login with Valid Credentials @login@regression",
+          "ok": true,
+          "tags": [
+            "login@regression"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 4435,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-04-15T02:40:37.233Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/mertayaar/QA-Projects/PlaywrightExamples/Playwright-JS-Framework/test-results/Login-login_test-Successfu-3e8b6-redentials-login-regression-chromium/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "41d7c6632e17a180e32b-5263552c7254bf990448",
+          "file": "Login/login_test.spec.js",
+          "line": 17,
+          "column": 5
+        },
+        {
+          "title": "Login with Invalid Credentials @login@regression",
+          "ok": true,
+          "tags": [
+            "login@regression"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 3023,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-04-15T02:40:42.326Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/mertayaar/QA-Projects/PlaywrightExamples/Playwright-JS-Framework/test-results/Login-login_test-Login-wit-313b4-redentials-login-regression-chromium/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "41d7c6632e17a180e32b-9bb220893a183122c610",
+          "file": "Login/login_test.spec.js",
+          "line": 23,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Product/product_test.spec.js",
+      "file": "Product/product_test.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Verify All Products Show up @products@regression",
+          "ok": true,
+          "tags": [
+            "products@regression"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 5180,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-04-15T02:40:37.235Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/mertayaar/QA-Projects/PlaywrightExamples/Playwright-JS-Framework/test-results/Product-product_test-Verif-03ec8-Show-up-products-regression-chromium/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f3124a3aa4706faf0fc7-0f33f43bb92741df15ac",
+          "file": "Product/product_test.spec.js",
+          "line": 23,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Register/register_test.spec.js",
+      "file": "Register/register_test.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Successful Register with Valid Credentials @register@regression",
+          "ok": true,
+          "tags": [
+            "register@regression"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "status": "passed",
+                  "duration": 5135,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-04-15T02:40:37.236Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/mertayaar/QA-Projects/PlaywrightExamples/Playwright-JS-Framework/test-results/Register-register_test-Suc-fbd1b-entials-register-regression-chromium/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "bb1ce952b1a4100914fb-4b049656fd76eb404451",
+          "file": "Register/register_test.spec.js",
+          "line": 17,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-04-15T02:40:36.953Z",
+    "duration": 34172.129,
+    "expected": 8,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

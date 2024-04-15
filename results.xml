@@ -1,0 +1,66 @@
+<testsuites id="" name="" tests="8" failures="0" skipped="0" errors="0" time="34.11946">
+<testsuite name="CheckOut/CartAndPayment_test.spec.js" timestamp="2024-04-15T02:40:37.006Z" hostname="chromium" tests="4" failures="0" skipped="0" time="32.487" errors="0">
+<testcase name="place a order @products@placeorder@regression" classname="CheckOut/CartAndPayment_test.spec.js" time="17.334">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/CheckOut-CartAndPayment_te-7f601-ducts-placeorder-regression-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Proceed to Check Out @cart@placeorder@regression" classname="CheckOut/CartAndPayment_test.spec.js" time="3.843">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/CheckOut-CartAndPayment_te-2f6f8--cart-placeorder-regression-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Verify Address and Place Order @placeorder@regression" classname="CheckOut/CartAndPayment_test.spec.js" time="5.927">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/CheckOut-CartAndPayment_te-37d7a-Order-placeorder-regression-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Pay and Confirm @placeorder@regression" classname="CheckOut/CartAndPayment_test.spec.js" time="5.383">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/CheckOut-CartAndPayment_te-d4479-nfirm-placeorder-regression-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Login/login_test.spec.js" timestamp="2024-04-15T02:40:37.006Z" hostname="chromium" tests="2" failures="0" skipped="0" time="7.458" errors="0">
+<testcase name="Successful Login with Valid Credentials @login@regression" classname="Login/login_test.spec.js" time="4.435">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/Login-login_test-Successfu-3e8b6-redentials-login-regression-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Login with Invalid Credentials @login@regression" classname="Login/login_test.spec.js" time="3.023">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/Login-login_test-Login-wit-313b4-redentials-login-regression-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Product/product_test.spec.js" timestamp="2024-04-15T02:40:37.006Z" hostname="chromium" tests="1" failures="0" skipped="0" time="5.18" errors="0">
+<testcase name="Verify All Products Show up @products@regression" classname="Product/product_test.spec.js" time="5.18">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/Product-product_test-Verif-03ec8-Show-up-products-regression-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Register/register_test.spec.js" timestamp="2024-04-15T02:40:37.006Z" hostname="chromium" tests="1" failures="0" skipped="0" time="5.135" errors="0">
+<testcase name="Successful Register with Valid Credentials @register@regression" classname="Register/register_test.spec.js" time="5.135">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/Register-register_test-Suc-fbd1b-entials-register-regression-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
